@@ -1,0 +1,39 @@
+html {
+
+   font-size: 15px;
+   font-weight: 350;
+}
+.get-started {
+  background-color:#04B486 ;
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px;
+  padding-right: 38px;
+  padding-left: 38px;
+  color: white;
+  margin-right:90px;
+  font-size: 13px;
+  font-weight: 250;
+
+
+}
+.flex-container1 {
+  font-family: 'Crimson Text', sans-serif;
+display: flex;
+padding: 5px;
+ justify-content: space-between;
+ align-items: baseline;
+ flex-direction: row;
+
+}
+
+#logo {
+font-weight: 700;
+font-size: 32px;
+padding-left: 80px;
+  font-family: 'Crimson Text', serif;
+}
+
+#subscribe {
+  padding-left: 550px;
+}

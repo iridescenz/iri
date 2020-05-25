@@ -1,0 +1,152 @@
+
+
+html{
+font-family: 'Rubik', sans-serif;
+margin-top: auto;
+
+
+
+  }
+  .flex-container1 {
+  padding-left: 120px;
+  background-color: #F5F5F5;
+display: flex;
+color: #C0C0C0;
+font-size: 14px;
+height: 40px;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+border-bottom: 1px solid lightgrey;
+
+}
+
+.flex-container2 {
+height: 50px;
+margin-left: 130px;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.flex-container3 {
+  display:flex;
+  justify-content: flex-start;
+  margin-left: 140px;
+ align-items: center;
+  height: 40px;
+  margin-right: 150px;
+   -webkit-appearance: none;
+}
+
+
+.flex-container4 {
+    margin-left: 130px;
+    margin-top: -10px;
+display: flex;
+align-items: baseline;
+flex-direction: row;
+justify-content:flex-start;
+font-size: 12px;
+padding-right: 5px;
+height: 30px;
+
+}
+.heart {
+  margin-left: 300px;
+}
+.put-advert {
+  margin-right: 150px;
+    background-color:#2DADE4 ;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    font-weight: 250;
+}
+input{
+  margin-left: 10px;
+}
+
+.logo, .service, .auto, .property, .more, .work, .login {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #2DADE4;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+    padding-bottom: 5px;
+color: black;
+  margin-left: 0px;
+
+}
+  .heart {
+  background-color: lightgrey;
+  display: inline-block;
+  height: 13px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 12px;
+  margin-left: 250px;
+}
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: lightgrey;
+  border-radius: 45%;
+  height: 13px;
+  position: absolute;
+  width: 13px;
+}
+
+.heart:before {
+  top: -5px;
+  left: 0;
+}
+
+.heart:after {
+  left: 5px;
+  top: 0;
+}
+ .login {
+   margin-left: 0;
+ }
+  select {
+    text-align: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance:none;
+  width:260px;
+  height: 30px;
+  border-radius: 0;
+  padding-left: 10px;
+   border: 3px solid #C8C8C8;
+   margin-left: -2px;
+   background-color: white;
+}
+
+#search1{
+     padding-left: 10px;
+  width:350px;
+  height: 30px;
+  margin-left: -10px;
+   border: 3px solid #C8C8C8;
+
+}
+
+ #searchbutton {
+  width:125px;
+  height: 30px;
+  background-color: white;
+   border: 3px solid #C8C8C8;
+  text-align: center;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance:none;
+margin-left: -20px;
+}
